@@ -7,13 +7,13 @@ from sklearn.linear_model import LogisticRegression
 
 
 # preparazione data, text = input(es, recensioni), tags = sono i tag correspodenti
-data = pd.read_csv('/workspace/PCTO/dataset/MOD_Amazon_Unlocked_Mobile.csv')  
+data = pd.read_csv('/workspace/TAGGING/dataset/vgsales.csv')  
 # data per l'allenamento dell'AI
-train_data = data['Product Name'][:280000]    
-train_tags = data['Brand Name'][:280000]
+train_data = data['Name'][:80]    
+train_tags = data['Platform'][:80]
 
 # parte di data che verra' usata per valutare l'AI
-test_data = data['Product Name'][280000:]     
+test_data = data['Name'][80:]     
 
 # trasformo i dati da text in valori numerici con questa classe della libreria di sklearn
 vectorizer = TfidfVectorizer()
