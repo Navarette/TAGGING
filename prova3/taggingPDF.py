@@ -11,7 +11,7 @@ taxonomy = [
     "Tesla", "Apple", "Microsoft", "Google", "Amazon", "Facebook", "IBM", "Intel", "Nvidia", "Samsung",
     
     # News and Media
-    "Breaking news", "Headlines", "Journalism", "Broadcast", "Press release", "Media coverage", 
+    "Breaking news", "Hea.dlines", "Journalism", "Broadcast", "Press release", "Media coverage", 
     "Editorial", "Op-ed", "Investigative reporting", "Public relations",
     
     # Scientific Fields
